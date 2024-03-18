@@ -1,7 +1,6 @@
 {
 
   "version": "0.1.0",
-  "homepage":"https://dgalvan-zz.github.io/Dgalvan-zz-Portfolio-React",
 
   "private": true,
 
@@ -30,8 +29,7 @@
   },
 
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+
 
     "start": "react-scripts start",
 
@@ -61,13 +59,8 @@
 
     ]
 
-  },
-
-  "devDependencies": {
-
-    "gh-pages": "^6.1.1"
-
   }
+
 
 }
 
