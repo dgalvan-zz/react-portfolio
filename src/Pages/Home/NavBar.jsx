@@ -4,19 +4,19 @@ function Navbar(){
     const[navActive, setNavActive]=useState(false);
 
     const toggleNav=()=>{
-        setNavActive(!navActive)
-    }
+        setNavActive(!navActive);
+    };
 
     const closeMenu=()=>{
-        setNavActive(false)
-    }
+        setNavActive(false);
+    };
 
     useEffect(()=>{
         const handleResize=()=>{
             if(window.innerWidth<= 500){
-                closeMenu
+                closeMenu;
             }
-        }
+        };
         window.addEventListener("resize",handleResize);
         return ()=>{
             window.removeEventListener("resize", handleResize);
@@ -49,7 +49,9 @@ function Navbar(){
                         offset={-70}
                         duration={500}
                         to="heroSection"
-                        className="navbar--content">Home</Link>
+                        className="navbar--content"
+
+                        >Home</Link>
                     </li>
                     <li>
                         <Link onClick={closeMenu}
@@ -73,16 +75,7 @@ function Navbar(){
                         className="navbar--content">About Me</Link>
                     </li>
 
-                    <li>
-                        <Link onClick={closeMenu}
-                        activeClass="navbar--active-content"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}
-                        to="Testimonials"
-                        className="navbar--content">Testimonials</Link>
-                    </li>
+                   
                 </ul>
             </div>
             <Link onClick={closeMenu}
@@ -91,7 +84,7 @@ function Navbar(){
                         smooth={true}
                         offset={-70}
                         duration={500}
-                        to="ContactMe"
+                        to="Contact"
                         className="btn btn-outline-primary">Contact Me</Link>
         </nav>
     );

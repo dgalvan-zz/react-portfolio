@@ -2,28 +2,56 @@
     "skills":[
         {
             "id":1,
-            "src":"./img/product-chain-1.png",
+            "src":"./img/front-end.png",
             "title":"Front-End",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. suspenmdise varius eim in eros elemtous tristique"
+            "description":"Crafting captivating front-end experiences, I blend creativity with code to bring websites and apps to life. Let's collaborate and create something extraordinary together!"
         },
         {
             "id":2,
-            "src":"./img/tag-1.png",
+            "src":"./img/back-end.png",
             "title":"Back-End",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. suspenmdise varius eim in eros elemtous tristique"
+            "description":"Diving headfirst into back-end coding, I'm eager to learn and build the magic behind the incredible apps you love. Let's team up and make tech dreams happen!"
         },
         {
             "id":3,
-            "src":"./img/feather-pen-2.png",
-            "title":"Photography",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. suspenmdise varius eim in eros elemtous tristique"
+            "src":"./img/photography.png",
+            "title":"Audiovisual Media",
+            "description":"Crafting captivating visual stories with our unique photography and videography style. From portraits to events and product images, let's create memorable moments."
         },
         {
             "id":4,
-            "src":"./im/feather-pen1.png",
+            "src":"./img/tutoring.png",
             "title":"Tutoring",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. suspenmdise varius eim in eros elemtous tristique"
+            "description":"Unlock your academic potential with personalized tutoring in Spanish and Coding. Our comprehensive services cater to beginners, guiding you to success."
         }
+    ],
+
+    "portfolio":[
+        {
+            "id":1,
+            "src":"./img/1.png",
+            "title":"Card Game",
+            "description":"This project aimed to teach students essential Python concepts like classes, constructors, attributes, methods, and inheritance. Through hands-on exercises, students practiced creating classes, distinguishing between attributes, and mastering inheritance.",
+            "githubLink": "https://github.com/dgalvan-zz/card-game",
+            "link":"View in GitHub"
+        },
+        {
+            "id":2,
+            "src":"./img/3.png",
+            "title":"The Game of Hog",
+            "description":"Our inaugural project, The Game of Hog in the CIS 61 class, pushed us to apply higher-order functions creatively, fostering critical thinking and innovative strategy development to outperform baseline standards.",
+            "githubLink": "https://github.com/dgalvan-zz/Hog-project-CIS61",
+            "link":"View in GitHub"
+        },
+        {
+            "id":3,
+            "src":"./img/2.png",
+            "title":"Open Energy Dashboard",
+            "description":"Implemented critical JavaScript test case ('B7') using Chai and Mocha in Open Energy Dashboard open source project. PR #1079 seamlessly accepted, demonstrating commitment to collaborative development in renewable energy.",
+            "githubLink": "./ Open-Source.pdf",
+            "link":"View my Blog"
+        }
+
     ]
     
 }
