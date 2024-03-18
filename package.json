@@ -1,39 +1,73 @@
 {
-  "homepage": "https://dgalvan-zz.github.io/dgalvan-react-portfolio.github.io",
-  "name": "portfolio",
+
   "version": "0.1.0",
+  "homepage":"https://dgalvan-zz.github.io/Dgalvan-zz-Portfolio-React",
+
   "private": true,
+
   "engines": {
+
     "node": ">=12.x"
+
   },
+
   "dependencies": {
+
     "@emailjs/browser": "^4.3.3",
+
     "react": "^18.2.0",
+
     "react-dom": "^18.2.0",
+
     "react-router-dom": "^6.14.2",
+
     "react-scripts": "5.0.1",
+
     "react-scroll": "^1.8.9",
+
     "web-vitals": "^2.1.4"
+
   },
+
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+
     "start": "react-scripts start",
+
     "build": "react-scripts build"
+
   },
+
   "browserslist": {
+
     "production": [
+
       ">0.2%",
+
       "not dead",
+
       "not op_mini all"
+
     ],
+
     "development": [
+
       "last 1 chrome version",
+
       "last 1 firefox version",
+
       "last 1 safari version"
+
     ]
+
   },
+
   "devDependencies": {
+
     "gh-pages": "^6.1.1"
+
   }
+
 }
+
