@@ -1,4 +1,36 @@
+import {useRef} from "react";
+import emailjs from '@emailjs/browser';
+
+
+
 export default function ContactMe(){
+
+
+
+    const form = useRef()
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs
+          .sendForm('service_z6hpiak', 'template_l1g3ev9', form.current, {
+            publicKey: '5FqC2ZXzO1DaxvBVE',
+          })
+          .then(
+            () => {
+              console.log('SUCCESS!');
+            },
+            (error) => {
+              console.log('FAILED...', error.text);
+            },
+          );
+          e.target.reset();
+      };
+    
+
+
+
+
+
     return(
         <section id="Contact" className="contact--section">
             <div>
@@ -6,7 +38,7 @@ export default function ContactMe(){
                 <h2>Contact Me</h2>
                 <p className="text--lg">Have a project in mind or want to discuss potential collaborations? Feel free to reach out! I'm always excited to connect with fellow enthusiasts, potential clients, or anyone with a shared passion for technology and innovation. Drop me a message, and let's bring ideas to life together.</p>
             </div>
-            <form className="contact--form--container">
+            <form ref={form} onSubmit={sendEmail} className="contact--form--container">
                 <div className="container">
 
                     <label htmlFor="first-name" className="contact--label"><span className="text-md">First Name</span>
@@ -49,7 +81,7 @@ export default function ContactMe(){
 
                 <label htmlFor="choose-topic" className="contact--label">
                     <span className="text-md">Choose a topic </span>
-                    <select  id="choose-topic" className="contact--input text-md">
+                    <select  id="choose-topic" name="choose-topic" className="contact--input text-md">
                         <option  >Select one..</option>
                         <option  >Collaboration</option>
                         <option  >Job offer</option>
@@ -62,6 +94,7 @@ export default function ContactMe(){
                     <span className="text-md">Message</span>
                     <textarea 
                     className="contact--input text-md" 
+                    name="message"
                     id="message" 
                     rows="8"
                     placeholder="Type your message..."
