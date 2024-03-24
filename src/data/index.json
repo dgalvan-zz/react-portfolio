@@ -4,25 +4,25 @@
             "id":1,
             "src":"./img/front-end.png",
             "title":"Front-End",
-            "description":"Crafting captivating front-end experiences, I blend creativity with code to bring websites and apps to life. Let's collaborate and create something extraordinary together!"
+            "description":"HTML-beginner, CSS-beginner, React-beginner, JavaScript-beginner "
         },
         {
             "id":2,
             "src":"./img/back-end.png",
             "title":"Back-End",
-            "description":"Diving headfirst into back-end coding, I'm eager to learn and build the magic behind the incredible apps you love. Let's team up and make tech dreams happen!"
+            "description":"Python-proficient, C++-beginner, Git/GitHub-intermediate "
         },
         {
             "id":3,
             "src":"./img/photography.png",
             "title":"Audiovisual Media",
-            "description":"Crafting captivating visual stories with our unique photography and videography style. From portraits to events and product images, let's create memorable moments."
+            "description":"Capturing moments, Composition, Editing, Digital Manipulation"
         },
         {
             "id":4,
             "src":"./img/tutoring.png",
             "title":"Tutoring",
-            "description":"Unlock your academic potential with personalized tutoring in Spanish and Coding. Our comprehensive services cater to beginners, guiding you to success."
+            "description":" Spanish Tutor, Math Tutor"
         }
     ],
 
