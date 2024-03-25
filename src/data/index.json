@@ -30,9 +30,9 @@
         {
             "id":1,
             "src":"./img/1.png",
-            "title":"Card Game",
-            "description":"This project aimed to teach students essential Python concepts like classes, constructors, attributes, methods, and inheritance. Through hands-on exercises, students practiced creating classes, distinguishing between attributes, and mastering inheritance.",
-            "githubLink": "https://github.com/dgalvan-zz/card-game",
+            "title":"Weather App",
+            "description":"my very first weather app sing HTML, JavaScript, and CSS! It's been quite a journey, but I'm proud of how it turned out. The app fetches real-time weather data from the OpenWeatherMap API, so you can stay updated on the weather no matter where you are.",
+            "githubLink": "https://github.com/dgalvan-zz/weather-app",
             "link":"View in GitHub"
         },
         {
