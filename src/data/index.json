@@ -4,25 +4,25 @@
             "id":1,
             "src":"./img/front-end.png",
             "title":"Front-End",
-            "description":"HTML-beginner, CSS-beginner, React-beginner, JavaScript-beginner "
+            "description":"HTML-beginner, CSS-beginner, React-beginner, JavaScript-beginner. "
         },
         {
             "id":2,
             "src":"./img/back-end.png",
             "title":"Back-End",
-            "description":"Python-proficient, C++-beginner, Git/GitHub-intermediate "
+            "description":"Python-proficient, C++-beginner, Git/GitHub-intermediate."
         },
         {
             "id":3,
             "src":"./img/photography.png",
             "title":"Audiovisual Media",
-            "description":"Capturing moments, Composition, Editing, Digital Manipulation"
+            "description":"Capturing moments, Composition, Editing, Digital Manipulation."
         },
         {
             "id":4,
             "src":"./img/tutoring.png",
             "title":"Tutoring",
-            "description":" Spanish Tutor, Math Tutor"
+            "description":" Spanish Tutor, Math Tutor."
         }
     ],
 

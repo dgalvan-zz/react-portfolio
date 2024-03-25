@@ -463,6 +463,8 @@ h3{
   gap: 64px;
 
 }
+
+
 .contact--form--container{
   display: grid;
   grid-template-columns: auto;
@@ -517,13 +519,16 @@ select::-ms-expand {
   gap: 10.6px;
   flex: 1 0 0;
   justify-content: flex-start;
+  
+
+  
 }
 input[type="checkbox"] {
   width: 21px;
   height: 21px;
   border: 0.15em solid var(--heading-color);
   border-radius: 0.15em;
-  transform: translatey(-0.075em);
+  /* transform: translateY(-0.075em); */
 }
 /* contact end */
 
@@ -693,6 +698,8 @@ input[type="checkbox"] {
   .divider {
     margin: 20px;
   }
+
+
 }
 
 /* Hamburger menu  */
